@@ -1,0 +1,5 @@
+2.1请说出并发安全的List集合、Set集合、Map集合分别使用什么类？
+ArrayList的线程不安全：CopyOnWriteArrayList是线程安全的
+HashSet是线程不安全的：CopyOnWriteArraySet是线程安全的
+HashMap是线程不安全的: Hashtable是线程安全的，但效率低
+                     ConcurrentHashMap是线程安全的,效率一般比 Hashtable高
